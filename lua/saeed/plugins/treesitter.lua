@@ -34,7 +34,8 @@ return {
         "query",
         "vimdoc",
         "c",
-        "c++"
+        "markdown_inline",
+        "markdown",
       },
       incremental_selection = {
         enable = true,

@@ -37,3 +37,6 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- this is some weird bug in obsidian plugin, this is a fix to that
+vim.opt.conceallevel = 2

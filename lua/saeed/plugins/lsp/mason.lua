@@ -29,7 +29,8 @@ return {
       ensure_installed = {
         "lua_ls",
         "pyright",
-        "clangd"
+        "clangd",
+        "marksman",
       },
     })
 
@@ -40,7 +41,7 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
-        "clang-format" -- C/C++ formater
+        "clang-format", -- C/C++ formater
       },
     })
   end,
